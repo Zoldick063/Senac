@@ -1,0 +1,85 @@
+css
+/* Configurações básicas para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    display: flex; /* Exibir elementos em linha */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh; /* Altura igual à altura da viewport */
+}
+
+/* Estilos para o container do formulário */
+.container {
+    width: 400px; /* Largura */
+    padding: 20px; /* Preenchimento interno */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 5px; /* Borda arredondada */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Centraliza os títulos <h2> */
+h2 {
+    text-align: center;
+}
+
+/* Estilos para rótulos <label> */
+label {
+    display: block; /* Exibe rótulos como blocos */
+    margin-top: 10px; /* Espaçamento superior */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilos para inputs, selects e textareas */
+input, select, textarea {
+    width: 20%; /* Largura */
+    padding: 10px; /* Preenchimento interno */
+    border-radius: 5px; /* Borda arredondada */
+    border: 1px solid #ccc; /* Borda cinza */
+}
+
+/* Estilos para botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50; /* Fundo verde */
+    color: #fff; /* Texto branco */
+    cursor: pointer; /* Cursor de mão */
+    border: none; /* Sem borda */
+}
+
+/* Efeito de hover para o botão de envio */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Fundo mais escuro no hover */
+}
+
+/* Estilo para mensagens de erro */
+.error-message {
+    color: red; /* Texto vermelho */
+    margin-top: 5px; /* Espaçamento superior */
+}
+
+/* Estilo para mensagens de sucesso */
+.success-message {
+    color: green; /* Texto verde */
+    margin-top: 5px; /* Espaçamento superior */
+}
+
+/* Estilos para o título "fale" */
+#fale {
+    color: #000000; /* Texto preto */
+    text-align: center; /* Alinhamento central */
+}
+
+/* Estilos para a classe "faleR" */
+.faleR {
+    text-align: center; /* Alinhamento central */
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #0F1568; /* Fundo azul escuro */
+    color: #000; /* Texto preto */
+    text-align: center; /* Alinhamento central */
+    padding: 20px; /* Preenchimento interno */
+}
+
+	
